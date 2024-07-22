@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#Maincon {
+  width: auto;
+  box-shadow: 1px 1px 3px rgb(149, 149, 149);
+}
+
+input {
+  border-radius: 8px;
+  border: 2px solid rgb(216, 215, 215);
+  background-color: rgb(239, 239, 239);
+  width: auto;
+  outline: none;
+}
+#form{
+    display: flex;
+    justify-content: space-around;
+}
+#birthdate{
+    display: flex;
+    justify-content: space-between;
+}
+
+#genders{
+    display: flex;
+    justify-content: space-between;
+}   
+
+label{
+    border-radius: 5px;
+}
+
+#text{
+  font-size: 13px;
+  display: flex;
+}
+#button{
+  display: flex;
+  justify-content: center;
+
+}
+#btn{
+  width:11rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
