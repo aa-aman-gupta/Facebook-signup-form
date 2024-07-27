@@ -25,37 +25,39 @@ input {
   width: auto;
   outline: none;
 }
-#form{
-    display: flex;
-    justify-content: space-around;
+#form {
+  display: flex;
+  justify-content: space-around;
 }
-#birthdate{
-    display: flex;
-    justify-content: space-between;
-}
-
-#genders{
-    display: flex;
-    justify-content: space-between;
-}   
-
-label{
-    border-radius: 5px;
+#birthdate {
+  display: flex;
+  justify-content: space-between;
 }
 
-#text{
+#genders {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  border-radius: 5px;
+}
+
+#text {
   font-size: 13px;
   display: flex;
 }
-#button{
+#button {
   display: flex;
   justify-content: center;
-
 }
-#btn{
-  width:11rem;
+#btn {
+  width: 11rem;
   height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/* #labe {
+  padding: 0px 20px;
+} */
